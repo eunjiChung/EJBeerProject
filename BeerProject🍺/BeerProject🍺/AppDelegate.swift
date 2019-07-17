@@ -17,7 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        self.window = UIWindow()
+        self.window = UIWindow() // 스토리보드를 이용하지 않기 때문에 윈도우를 직접 생성해준다!! 스토리보드를 이용하면 자동적으로 윈도우가 제공된다
+        let rootViewController = MainViewController()
+//        let rootViewModel =
+        
+        window?.makeKeyAndVisible()
+        window?.rootViewController = rootViewController
+        
         return true
     }
 
