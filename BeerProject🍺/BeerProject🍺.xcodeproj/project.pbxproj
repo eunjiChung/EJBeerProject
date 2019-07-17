@@ -10,6 +10,10 @@
 		018812EC168B7AC8C765EF97 /* Pods_BeerProject_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8B6A5455680D4481178440 /* Pods_BeerProject_.framework */; };
 		4697F561A2CA3FB637796FA3 /* Pods_BeerProject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A7C4E4AA54B10A982F71E /* Pods_BeerProject_Tests.framework */; };
 		486B5B8FF95E032481AC2BB6 /* Pods_BeerProject_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2E838BAFB2C181E2B03A9 /* Pods_BeerProject_UITests.framework */; };
+		72C6F2FB22DF457500B93CFB /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6F2FA22DF457500B93CFB /* BeerListViewController.swift */; };
+		72C6F2FD22DF457F00B93CFB /* SingleBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6F2FC22DF457F00B93CFB /* SingleBeerViewController.swift */; };
+		72C6F2FF22DF458900B93CFB /* RandomBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6F2FE22DF458900B93CFB /* RandomBeerViewController.swift */; };
+		72C6F30122DF4EDE00B93CFB /* BeerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6F30022DF4EDE00B93CFB /* BeerListCell.swift */; };
 		996C681122DEF4EC00DBF99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C681022DEF4EC00DBF99E /* AppDelegate.swift */; };
 		996C681622DEF4EC00DBF99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996C681422DEF4EC00DBF99E /* Main.storyboard */; };
 		996C681822DEF4ED00DBF99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996C681722DEF4ED00DBF99E /* Assets.xcassets */; };
@@ -40,6 +44,10 @@
 		283672AC59BA29C87894911A /* Pods-BeerProject🍺UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerProject🍺UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerProject🍺UITests/Pods-BeerProject🍺UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		693D0ABCC126025DE6B1A6DF /* Pods-BeerProject🍺Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerProject🍺Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerProject🍺Tests/Pods-BeerProject🍺Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5A7C4E4AA54B10A982F71E /* Pods_BeerProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C6F2FA22DF457500B93CFB /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		72C6F2FC22DF457F00B93CFB /* SingleBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBeerViewController.swift; sourceTree = "<group>"; };
+		72C6F2FE22DF458900B93CFB /* RandomBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerViewController.swift; sourceTree = "<group>"; };
+		72C6F30022DF4EDE00B93CFB /* BeerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListCell.swift; sourceTree = "<group>"; };
 		84358A277261EA76DAF5F588 /* Pods-BeerProject🍺.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerProject🍺.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerProject🍺/Pods-BeerProject🍺.debug.xcconfig"; sourceTree = "<group>"; };
 		9675E63744DA2089E95862A8 /* Pods-BeerProject🍺.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerProject🍺.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerProject🍺/Pods-BeerProject🍺.release.xcconfig"; sourceTree = "<group>"; };
 		996C680D22DEF4EC00DBF99E /* BeerProject🍺.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeerProject🍺.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +97,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72C6F2F722DF454B00B93CFB /* BeerList */ = {
+			isa = PBXGroup;
+			children = (
+				72C6F2FA22DF457500B93CFB /* BeerListViewController.swift */,
+				72C6F30022DF4EDE00B93CFB /* BeerListCell.swift */,
+			);
+			name = BeerList;
+			sourceTree = "<group>";
+		};
+		72C6F2F822DF455300B93CFB /* SingleBeer */ = {
+			isa = PBXGroup;
+			children = (
+				72C6F2FC22DF457F00B93CFB /* SingleBeerViewController.swift */,
+			);
+			name = SingleBeer;
+			sourceTree = "<group>";
+		};
+		72C6F2F922DF455900B93CFB /* RandomBeer */ = {
+			isa = PBXGroup;
+			children = (
+				72C6F2FE22DF458900B93CFB /* RandomBeerViewController.swift */,
+			);
+			name = RandomBeer;
+			sourceTree = "<group>";
+		};
 		890C52FB61FC9ED380F4986A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +234,9 @@
 			isa = PBXGroup;
 			children = (
 				996C684322DEFC2D00DBF99E /* MainViewController.swift */,
+				72C6F2F722DF454B00B93CFB /* BeerList */,
+				72C6F2F822DF455300B93CFB /* SingleBeer */,
+				72C6F2F922DF455900B93CFB /* RandomBeer */,
 			);
 			name = Presentation;
 			sourceTree = "<group>";
@@ -443,8 +479,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C6F2FD22DF457F00B93CFB /* SingleBeerViewController.swift in Sources */,
+				72C6F2FF22DF458900B93CFB /* RandomBeerViewController.swift in Sources */,
+				72C6F2FB22DF457500B93CFB /* BeerListViewController.swift in Sources */,
 				996C684422DEFC2D00DBF99E /* MainViewController.swift in Sources */,
 				996C681122DEF4EC00DBF99E /* AppDelegate.swift in Sources */,
+				72C6F30122DF4EDE00B93CFB /* BeerListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -605,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -623,7 +663,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88356WAKJ6;
 				INFOPLIST_FILE = "BeerProject🍺/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -643,7 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88356WAKJ6;
 				INFOPLIST_FILE = "BeerProject🍺/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
